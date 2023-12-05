@@ -1,0 +1,102 @@
+/* Reset de la marge et du padding, et fond sombre par dÃ©faut */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #303030;
+}
+
+a {
+  color: violet;
+  text-decoration: none;
+}
+
+.page > h1 {
+  padding: 5%;
+} 
+
+a:hover {
+  color: violet;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.page {
+  display: flex;
+  margin-right: 10%;
+}
+
+
+/* Styles du header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  /*box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);*/
+  color: white;
+  padding: 20px;
+  height: 70px;
+}
+
+/* Styles du main */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #303030;
+  color: white;
+}
+
+/* Styles du footer */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  height: 70px;
+  text-align: center;
+}
+
+
+/* MEDIA QUERY POUR LA VERSION MOBILE */
+@media (max-width: 767px) {
+  /* HEADER */
+  header {
+    height: auto;
+  }
+
+  header {
+      flex-wrap: wrap;
+  }
+  
+  .logo {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  
+  footer p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
