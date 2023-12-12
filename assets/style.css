@@ -67,9 +67,14 @@ footer {
 .titre {
   color: white;
   padding: 50px;
-  margin-left: 350px;
-  margin-right: 300px;
+  text-align: center;
   font-weight: bold;
+}
+
+.description {
+  text-align: center;
+  width: auto;
+  font-size: 30px;
 }
 
 /* MEDIA QUERY POUR LA VERSION MOBILE */
