@@ -25,11 +25,21 @@ a:hover {
 
 p {
   font-size: 1.3rem;
+  margin: 13px;
 }
 
 .page {
   display: flex;
   margin-right: 10%;
+}
+
+.title {
+  background-color: #4148685e;
+  padding: 10px;
+  border-right: 5px solid #5265c7;
+  border-left: 5px solid #5265c7;
+  text-align: center;
+  margin: 10px;
 }
 
 
@@ -46,7 +56,7 @@ header {
 }
 
 /* Styles du main */
-main {
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -60,21 +70,46 @@ footer {
   color: white;
   padding: 20px;
   margin-top: 40px;
-  height: 70px;
-  text-align: center;
+  height: 200px;
 }
 
-.titre {
+.space {
+  background-color: #222;
   color: white;
-  padding: 50px;
-  text-align: center;
-  font-weight: bold;
+  padding: 20px;
+  margin-top: 40px;
+  height: 70px;
 }
 
-.description {
+.grid {
+  display: flex;
+  margin: 5px;
+}
+
+.grid_child {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
   text-align: center;
-  width: auto;
-  font-size: 30px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #555555;
+}
+
+tr:hover {
+  background-color: #777777;
 }
 
 /* MEDIA QUERY POUR LA VERSION MOBILE */
@@ -111,6 +146,4 @@ footer {
     color: #fff;
     text-decoration: none;
   }
-
-
 }
