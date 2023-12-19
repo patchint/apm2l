@@ -10,8 +10,26 @@ body {
 }
 
 a {
-  color: violet;
+  color: rgb(236, 221, 236);
   text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  margin: 10px;
+}
+
+.alexia {
+  width: 200px;
+}
+
+.sasuke {
+  width: 200px;
+}
+
+.naruto {
+  width: 200px;
 }
 
 .page > h1 {
@@ -76,6 +94,11 @@ footer {
   padding: 20px;
   margin-top: 40px;
   height: 190px;
+  padding-left: 140px;
+}
+
+footer ul li {
+  list-style: none;
 }
 
 footer p {
@@ -114,11 +137,11 @@ th, td {
 }
 
 th {
-  background-color: #555555;
+  background-color: #290099;
 }
 
 tr:hover {
-  background-color: #777777;
+  background-color: #ff000091;
 }
 
 /* MEDIA QUERY POUR LA VERSION MOBILE */
@@ -165,7 +188,6 @@ tr:hover {
   }
 
   footer a {
-    color: #fff;
     text-decoration: none;
   }
 }
