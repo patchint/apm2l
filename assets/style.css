@@ -26,6 +26,11 @@ a:hover {
 p {
   font-size: 1.3rem;
   margin: 13px;
+  padding: 2px;
+}
+
+ul {
+  padding: 10px;
 }
 
 .page {
@@ -70,7 +75,11 @@ footer {
   color: white;
   padding: 20px;
   margin-top: 40px;
-  height: 200px;
+  height: 190px;
+}
+
+footer p {
+  margin: 2px;
 }
 
 .space {
@@ -123,6 +132,10 @@ tr:hover {
       flex-wrap: wrap;
   }
   
+  .page {
+      display: block;
+  }
+
   .logo {
       width: 100%;
       text-align: center;
@@ -132,13 +145,22 @@ tr:hover {
   /* FOOTER */
   footer {
     height: auto;
-    padding: 1rem;
+    padding: 5px;
     text-align: center;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  footer > ul > li {
+    padding: 5px;
   }
 
   
   footer p {
-    margin-bottom: 0.5rem;
+    padding: 2px;
+    margin: 1px;
     text-align: center;
   }
 
